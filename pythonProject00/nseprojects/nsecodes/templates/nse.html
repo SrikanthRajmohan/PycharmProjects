@@ -1,0 +1,175 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=0.5, minimum-scale=0.5">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Bhavcopy Live stocks</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="container-fluid" style="height:100vh;">-->
+<!--        <div class="row" style="height:100vh;">-->
+<!--            <div class="col-lg-8 col-8 col-sm-8 col-md-8 col-xl-8 laone">-->
+<!--                <h1 id="la1" style="text-align: center; margin-top:35%; font-family: 'Montserrat', sans-serif;">-->
+<!--                    LIVE NSE STOCK CLOSE PRICE PREDICTION-->
+<!--                </h1>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 col-4 col-sm-4 col-md-4 col-xl-4 align-bottom new_1">-->
+<!--                <h1>Stock Quote</h1>-->
+<!--                 <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">-->
+<!--        <thead style="background-color: #f2f2f2;">-->
+<!--            <tr>-->
+<!--                <th style="padding: 5px; border: 1px solid black;">Company Name</th>-->
+<!--                <th style="padding: 5px; border: 1px solid black;">Stock data</th>-->
+<!--                <th style="padding: 5px; border: 1px solid black;">Last Traded Price</th>-->
+<!--                <th style="padding: 5px; border: 1px solid black;">High Price</th>-->
+<!--                <th style="padding: 5px; border: 1px solid black;">Low Price</th>-->
+<!--            </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+
+<!--            <tr>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">Tcs</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;"></td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">3,213.90</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">3,575.00</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">2,926.10</td>-->
+<!--            </tr>-->
+
+<!--        </tbody>-->
+<!--        <tbody>-->
+
+<!--            <tr>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">Wipro</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;"></td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">379.95</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">444.90</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">352.00</td>-->
+<!--            </tr>-->
+
+<!--        </tbody>-->
+<!--        <tbody>-->
+
+<!--            <tr>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">Cognizant</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;"></td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">62.60</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">62.40</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">61.23</td>-->
+<!--            </tr>-->
+
+<!--        </tbody>-->
+<!--        <tbody>-->
+
+<!--            <tr>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">Capgemini</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;"></td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">168.65</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">193.60</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">152.65</td>-->
+<!--            </tr>-->
+
+<!--        </tbody>-->
+<!--        <tbody>-->
+
+<!--            <tr>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">Infosys</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;"></td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">1265.70</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">1672.60</td>-->
+<!--                <td style="padding: 5px; border: 1px solid black;">1185.30</td>-->
+<!--            </tr>-->
+
+<!--        </tbody>-->
+<!--    </table>-->
+<!--&lt;!&ndash;                <p>Company Name:</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                <p>Stock data: {{ stock_quote.data }}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                <p>Last Traded Price: {{ stock_quote.lastPrice }}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                <p>High Price: {{ stock_quote.dayHigh }}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                <p>Low Price: {{ stock_quote.dayLow }}</p>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Bhavcopy Documents</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Bhavcopy Documents</h1>-->
+<!--    <ul>-->
+<!--        {% for document in bhavcopy_documents %}-->
+<!--            <li>-->
+<!--                <a href="{{ document.url }}">{{ document.name }}</a>-->
+<!--            </li>-->
+<!--        {% empty %}-->
+<!--            <li>No Bhavcopy documents found.</li>-->
+<!--        {% endfor %}-->
+<!--    </ul>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>NSE Stock</title>-->
+<!--    (% load static %)-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<tbody>-->
+<!--            {% for stock in stocks %}-->
+<!--            <tr>-->
+<!--                <td>{{ stock.symbol }}</td>-->
+<!--                <td>{{ stock-->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Bhavcopy Stock updates</title>-->
+<!--    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <script src="{% static 'js/script.js' %}"></script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!-- bhavcopy.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bhavcopy Stocks</title>
+</head>
+<body>
+    <h1>Bhavcopy for {{ date }}</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Open</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Close</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks %}
+            <tr>
+                <td>{{ stock.symbol }}</td>
+                <td>{{ stock.open }}</td>
+                <td>{{ stock.high }}</td>
+                <td>{{ stock.low }}</td>
+                <td>{{ stock.close }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
